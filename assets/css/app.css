@@ -181,7 +181,8 @@ footer {
 }
 
 footer a {
-  color: #060551;
+  color: #212529;
+  font-size: 0.8em;
 }
 
 #bottom-two-page-layout {
