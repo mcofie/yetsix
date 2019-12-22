@@ -6,12 +6,15 @@ $light-grey: #f5f5f5;
 $accent-color: #b50203;
 $default-border-radius: 20px;
 
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+
 @font-face {
   font-family: "SF-Bold";
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/SF-Bold.otf") format("truetype");
 }
+
 
 @font-face {
   font-family: "SF-Light";
@@ -28,7 +31,7 @@ $default-border-radius: 20px;
 }
 
 * {
-  font-family: "SF-Light";
+  font-family: "SF-Light", 'Roboto', 'Lato', sans-serif;
 }
 
 .btn {
@@ -127,7 +130,7 @@ primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.d
   cursor: pointer;
 }
 
-.list-group-item{
+.list-group-item {
   background-color: transparent;
 }
 
@@ -191,6 +194,10 @@ footer {
   border-radius: $default-border-radius;
   float: left;
   margin: 10px 0;
+
+  & img {
+    //height: 65px !important;
+  }
 
   & h5 {
   }

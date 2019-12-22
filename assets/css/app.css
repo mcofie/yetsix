@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap");
 @font-face {
   font-family: "SF-Bold";
   font-style: normal;
@@ -17,7 +18,7 @@
   src: url("../fonts/SF-Regular.otf") format("truetype");
 }
 * {
-  font-family: "SF-Light";
+  font-family: "SF-Light", "Roboto", "Lato", sans-serif;
 }
 
 .btn {
