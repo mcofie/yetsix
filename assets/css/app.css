@@ -59,6 +59,18 @@ h1, h2, h3, h5, h4, h6, nav a {
   margin-bottom: 0 !important;
 }
 
+.alert {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.alert-warning {
+  color: #FFF;
+  background-color: #0c0b5a;
+  border: none;
+  border-bottom: 1px solid #2d2d2d;
+}
+
 nav a {
   font-size: 1.05em;
   color: #060551 !important;
@@ -67,12 +79,49 @@ nav a:hover {
   color: #b50203 !important;
 }
 
+primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle,
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+  color: #fff;
+  background-color: #b50203 !important;
+  border-color: #b50203 !important;
+}
+
 .no-border {
   border: none !important;
 }
 
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: unset;
+  border: none;
+  border-radius: 0;
+}
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #dadada;
+  cursor: pointer;
+}
+
+.list-group-item {
+  background-color: transparent;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
 .team-portrait {
-  border-radius: 150px;
+  border-radius: 100%;
 }
 
 .lower-section, .top-section, .mid-section {
@@ -101,19 +150,6 @@ footer {
   float: left;
   padding: 20px 0;
   background-color: #ececec;
-}
-
-.card {
-  width: 300px;
-  padding: 30px 0;
-  margin: 16px;
-  text-align: center;
-  border-radius: 200px;
-  border: 2px solid #ff6e6e;
-}
-.card p {
-  font-size: 1em;
-  color: #9e9b9b;
 }
 
 .top-section {

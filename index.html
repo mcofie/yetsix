@@ -8,7 +8,7 @@
     <title>YetSix</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/app.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
 <body>
 <header>
@@ -24,7 +24,13 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse" id="navbarsExample04">
-                    <ul class="navbar-nav  mx-auto d-md-flex text-center">
+                    <ul class="navbar-nav  mx-auto d-md-flex text-sm-left">
+                        <li class="d-sm-block d-md-none">
+                            <form class="form-inline my-2 my-lg-0" style="margin-top: 15px;">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                       aria-label="Search">
+                            </form>
+                        </li>
                         <li class="nav-item active trns-ease-1s">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
@@ -42,6 +48,16 @@
         </nav>
     </div>
 </header>
+<div class="alert alert-warning alert-dismissible fade show" role="alert" style="margin-top: 60px; padding: 25px 0;">
+    <div class="container text-center">
+        <p style="margin-bottom: 0;">
+            Free logistics for pilot!Limited time only. Logistics for the pilot will be provided for free
+        </p>
+    </div>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <i class="fas fa-times"></i>
+    </button>
+</div>
 <div class="top-section">
     <div class="container">
         <div class="row justify-content-start text-left">
@@ -51,10 +67,10 @@
                         <hr class="custom-horizontal-line">
                     </li>
                     <li>
-                        <h2>Are no-shows hurting <br> your bottom-line?</h2>
+                        <h2>Are no-shows hurting your bottom-line?</h2>
                     </li>
                     <li>
-                        <p>Quit sacrificing productivity and revenue. <br>Book with confidence.</p>
+                        <p>Quit sacrificing productivity and revenue.Book with confidence.</p>
                     </li>
                     <li>
                         <button class="btn btn-outline-danger btn" style="padding: 0 50px;">
@@ -107,55 +123,57 @@
             </div>
             <div class="col-md-6">
                 <div class="wrapper">
-                    <ul class="list-unstyled">
-                        <li>
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><i data-vi="check"></i></li>
+                    <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col-9">
+                            <ul class="list-unstyled">
                                 <li class="list-inline-item"><h5>Optimize Resources</h5></li>
+                                <li>
+                                    <p>
+                                        Leila makes reminding patients easy. Your staff don't have to call
+                                        to remind patients.
+                                    </p>
+                                </li>
                             </ul>
-                        </li>
-                        <li>
-                            <p>
-                                Leila makes reminding patients easy. Your staff don't have to call
-                                to remind patients.
-                            </p>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="wrapper">
-                    <ul class="list-unstyled">
-                        <li>
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><i data-vi="check"></i></li>
+                    <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col-9">
+                            <ul class="list-unstyled">
                                 <li class="list-inline-item"><h5>Connect With Patients</h5></li>
+                                <li>
+                                    <p>
+                                        Leila's Artificial Intelligence will guide you in creating relevant content
+                                        (video/text)
+                                        for patients.
+                                    </p>
+                                </li>
                             </ul>
-                        </li>
-                        <li>
-                            <p>
-                                Leila's Artificial Intelligence will guide you in creating relevant content (video/text)
-                                for patients.
-                            </p>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="wrapper">
-                    <ul class="list-unstyled">
-                        <li>
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><i data-vi="check"></i></li>
+                    <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col-9">
+                            <ul class="list-unstyled">
                                 <li class="list-inline-item"><h5>Convenience For Patients</h5></li>
+                                <li>
+                                    <p>
+                                        Makes it easy for the patients to message, schedule or cancel appointment with
+                                        you.
+                                    </p>
+                                </li>
                             </ul>
-                        </li>
-                        <li>
-                            <p>
-                                Makes it easy for the patients to message, schedule or cancel appointment with you.
-                            </p>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -171,7 +189,6 @@
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <div class="layout-section left-section">
-                        <img src="assets/imgs/sprinting-doodle.svg" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -187,7 +204,7 @@
                                 </p>
                             </li>
                             <li>
-                                <button class="btn btn-primary btn" style="padding: 0 50px;">
+                                <button class="btn btn-primary btn-block" style="padding: 0 50px;">
                                     <h6>LEARN MORE</h6>
                                 </button>
                             </li>
@@ -213,7 +230,7 @@
                                 </p>
                             </li>
                             <li>
-                                <button class="btn btn-primary btn" style="padding: 0 50px;">
+                                <button class="btn btn-primary btn-block" style="padding: 0 50px;">
                                     <h6>LEARN MORE</h6>
                                 </button>
                             </li>
@@ -222,7 +239,6 @@
                 </div>
                 <div class="col-md-6">
                     <div class="layout-section left-section">
-                        <img src="assets/imgs/loving-doodle.svg" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -233,7 +249,6 @@
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <div class="layout-section left-section">
-                        <img src="assets/imgs/sitting-doodle.svg" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -249,7 +264,7 @@
                                 </p>
                             </li>
                             <li>
-                                <button class="btn btn-primary btn" style="padding: 0 50px;">
+                                <button class="btn btn-primary btn-block" style="padding: 0 50px;">
                                     <h6>LEARN MORE</h6>
                                 </button>
                             </li>
@@ -283,19 +298,23 @@
 <div class="social-media-section">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-4">
-                <h6>Follow us</h6>
+            <div class="col-md-4 text-sm-left">
+                <ul class="list-unstyled">
+                    <li style="margin-top: 10px;">
+                        <h6 class="align-middle">Follow us</h6>
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-8 text-right">
-                <ul class="list-inline">
+            <div class="col-md-8 text-md-right text-sm-center">
+                <ul class="list-inline" style="margin-bottom: 0;">
                     <li class="list-inline-item">
-                        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                        <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
                     </li>
                     <li class="list-inline-item">
-                        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                        <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
                     </li>
                     <li class="list-inline-item">
-                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                        <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
                     </li>
                 </ul>
             </div>
@@ -303,26 +322,126 @@
     </div>
 </div>
 <footer>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-3">
-                <ul class="list-unstyled">
-                    <li><h6>Company</h6></li>
-                    <li><a href="meet-the-team.html">Meet The Team</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <ul class="list-unstyled">
-                    <li><h6>Our Products</h6></li>
-                    <li><a href="#">Leila</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <ul class="list-unstyled">
-                    <li><h6>Contact</h6></li>
-                </ul>
+    <div class="d-none d-sm-none d-md-block">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><h6>Company</h6></li>
+                        <li><a href="meet-the-team.html">Meet The Team</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><h6>Our Products</h6></li>
+                        <li><a href="#">Leila</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><h6>Contact</h6></li>
+                    </ul>
+                </div>
+                <div class="col-md-3"></div>
             </div>
         </div>
+    </div>
+    <div class="d-sm-block d-md-none">
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <div class="row">
+                            <div class="col-9" style="padding-left: 0;">
+                                <div class="mb-0">
+                                    <h6 data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="false" aria-controls="collapseOne">
+                                        Our Company
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="col-3 text-right">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                         data-parent="#accordionExample">
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">About Us</li>
+                                <li class="list-group-item">Meet The Team</li>
+                                <li class="list-group-item">Meet The Team</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordionExampleTwo">
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <div class="row">
+                            <div class="col-9" style="padding-left: 0;">
+                                <div class="mb-0">
+                                    <h6 data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        Our Product
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="col-3 text-right">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                         data-parent="#accordionExampleTwo">
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Leila</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordionExampleThree">
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <div class="row">
+                            <div class="col-9" style="padding-left: 0;">
+                                <div class="mb-0">
+                                    <h6 data-toggle="collapse" data-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree">
+                                        Contact Us
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="col-3 text-right">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                         data-parent="#accordionExampleThree">
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Facebook</li>
+                                <li class="list-group-item">Twitter</li>
+                                <li class="list-group-item">LinkedIn</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
         <hr>
         <ul class="list-inline">
             <li class="list-inline-item">

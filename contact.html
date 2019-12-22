@@ -24,7 +24,13 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse" id="navbarsExample04">
-                    <ul class="navbar-nav  mx-auto d-md-flex text-center">
+                    <ul class="navbar-nav  mx-auto d-md-flex text-sm-left">
+                        <li class="d-sm-block d-md-none">
+                            <form class="form-inline my-2 my-lg-0" style="margin-top: 15px;">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                       aria-label="Search">
+                            </form>
+                        </li>
                         <li class="nav-item active trns-ease-1s">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
@@ -74,19 +80,23 @@
 <div class="social-media-section">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-4">
-                <h6>Follow us</h6>
+            <div class="col-md-4 text-sm-left">
+                <ul class="list-unstyled">
+                    <li style="margin-top: 10px;">
+                        <h6 class="align-middle">Follow us</h6>
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-8 text-right">
-                <ul class="list-inline">
+            <div class="col-md-8 text-md-right text-sm-center">
+                <ul class="list-inline" style="margin-bottom: 0;">
                     <li class="list-inline-item">
-                        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                        <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
                     </li>
                     <li class="list-inline-item">
-                        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                        <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
                     </li>
                     <li class="list-inline-item">
-                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                        <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
                     </li>
                 </ul>
             </div>
@@ -94,34 +104,137 @@
     </div>
 </div>
 <footer>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-3">
-                <ul class="list-unstyled">
-                    <li><h6>About Us</h6></li>
-                    <li><a href="#">Legal</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">License</a></li>
-
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <ul class="list-unstyled">
-                    <li><h6>Our Products</h6></li>
-                    <li><a href="#">Leila</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <ul class="list-unstyled">
-                    <li><h6>Contact</h6></li>
-                </ul>
+    <div class="d-none d-sm-none d-md-block">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><h6>Company</h6></li>
+                        <li><a href="meet-the-team.html">Meet The Team</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><h6>Our Products</h6></li>
+                        <li><a href="#">Leila</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><h6>Contact</h6></li>
+                    </ul>
+                </div>
+                <div class="col-md-3"></div>
             </div>
         </div>
-        <hr>
-        <h6 style="font-size: small;">
-            &copy; 2019 | YetSix - All Rights Reserved.
-        </h6>
+    </div>
+    <div class="d-sm-block d-md-none">
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <div class="row">
+                            <div class="col-9" style="padding-left: 0;">
+                                <div class="mb-0">
+                                    <h6 data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="false" aria-controls="collapseOne">
+                                        Our Company
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="col-3 text-right">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
 
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                         data-parent="#accordionExample">
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">About Us</li>
+                                <li class="list-group-item">Meet The Team</li>
+                                <li class="list-group-item">Meet The Team</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordionExampleTwo">
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <div class="row">
+                            <div class="col-9" style="padding-left: 0;">
+                                <div class="mb-0">
+                                    <h6 data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        Our Product
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="col-3 text-right">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                         data-parent="#accordionExampleTwo">
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Leila</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordionExampleThree">
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <div class="row">
+                            <div class="col-9" style="padding-left: 0;">
+                                <div class="mb-0">
+                                    <h6 data-toggle="collapse" data-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree">
+                                        Contact Us
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="col-3 text-right">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                         data-parent="#accordionExampleThree">
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Facebook</li>
+                                <li class="list-group-item">Twitter</li>
+                                <li class="list-group-item">LinkedIn</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <h6 style="font-size: small; display: flex; margin-right: 40px;">
+                    &copy; 2019 | YetSix - All Rights Reserved.
+                </h6>
+            </li>
+            <li class="list-inline-item"><a href="#">Legal</a></li>
+            <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>
+            <li class="list-inline-item"><a href="#">License</a></li>
+        </ul>
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/vivid-icons@1.0.9" type="text/javascript"></script>
