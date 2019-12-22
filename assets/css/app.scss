@@ -1,37 +1,43 @@
 //Constants
 $large-font-size: 50px;
-$primary-color: blue;
+$primary-color: #060551;
 $default-margin: 16px;
 $light-grey: #f5f5f5;
+$accent-color: #b50203;
+$default-border-radius: 20px;
 
 @font-face {
-  font-family: "Nonchalance";
+  font-family: "SF-Bold";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Alvaro-Condensed.otf") format("truetype");
+  src: url("../fonts/SF-Bold.otf") format("truetype");
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "SF-Light";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Roboto-Light.ttf") format("truetype");
+  src: url("../fonts/SF-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "SF-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SF-Regular.otf") format("truetype");
 }
 
 * {
-  font-family: "Roboto";
+  font-family: "SF-Light";
 }
 
 .btn {
   white-space: nowrap;
   display: inline-block;
-  height: 40px;
+  height: 60px;
   line-height: 40px;
   padding: 0 14px;
-  -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
-  box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
-  background: #2c3d8b;
-  border-color: #2c3d8b;
+  border: 2px solid;
   border-radius: 4px;
   font-size: 15px;
   font-weight: 600;
@@ -43,23 +49,44 @@ $light-grey: #f5f5f5;
   transition: all .15s ease;
 }
 
+header {
+  width: 100%;
+  float: left;
+}
 
-h1, h3, h5, h4, h6, nav a {
-  font-family: "Nonchalance" !important;
+.btn-primary {
+  color: #fff;
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgb(0, 0, 0);
+  border-color: transparent;
+}
+
+
+h1, h2, h3, h5, h4, h6, nav a {
+  font-family: "SF-Bold" !important;
   margin-bottom: 0 !important;
 }
 
 nav {
   & a {
-    font-size: 20px;
+    font-size: 1.05em;
+    color: $primary-color !important;
+
+    &:hover {
+      color: $accent-color !important;
+    }
   }
 }
 
-.no-border{
+.no-border {
   border: none !important;
 }
 
-.team-portrait{
+.team-portrait {
   border-radius: 150px;
 }
 
@@ -73,7 +100,17 @@ nav {
 }
 
 .mid-section {
-  padding: 20px 0;
+  padding: 40px 0;
+  background-color: #f5f5f5;
+
+  & h1, h2, h3, h4, h5, h6 {
+    font-family: "SF-Regular" !important;
+  }
+
+  & p {
+    font-size: 1.1em;
+    color: #7d7d7d;
+  }
 }
 
 footer {
@@ -98,15 +135,29 @@ footer {
 }
 
 .top-section {
-  background-color: #FFF;
+  background-color: $primary-color;
   padding: 100px 0;
+  color: #FFF;
   border-bottom: 1px solid $light-grey;
-  //background-image: url("../imgs/bg-halftone-black-20p@2x.png");
-  //background-repeat: no-repeat;
-  //background-position: left;
-  //backdrop-filter: blur(100);
-  & h1 {
-    font-size: $large-font-size;
+
+  & h2 {
+    font-size: 2.5em;
+  }
+
+  & p {
+    margin-top: 10px;
+    font-size: 1.7em;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: $default-border-radius;
+  float: left;
+  margin: 10px 0;
+
+  & h5 {
   }
 }
 
@@ -122,28 +173,50 @@ footer {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 5px solid rgb(255, 110, 110);
+  border-top: 5px solid #b50203;
   width: 50px;
 }
 
 .belt {
   width: 100%;
   padding: 50px 0;
-  margin: 50px 0;
   float: left;
-  border-top: 1px solid #f5f5f5;
+  color: #FFF;
   border-bottom: 1px solid #f5f5f5;
   background-image: url("../imgs/bg-halftone-black-20p@2x.png");
   background-repeat: no-repeat;
   background-position: left;
-  background-color: #ff6e6e;
+  background-color: #070654;
+
+  & button {
+    margin: 15px 0;
+  }
 }
 
 .two-page-layout {
   width: 100%;
   float: left;
+  padding: 50px 0;
+
+  & h3 {
+    margin-bottom: 10px !important;
+  }
+
+  & p {
+    font-size: 1.3em;
+  }
 }
 
+footer {
+  & a {
+    color: $primary-color;
+  }
+}
+
+#bottom-two-page-layout {
+  background-color: #2c3d8b;
+  color: #FFF;
+}
 
 .layout-section {
   width: 100%;
