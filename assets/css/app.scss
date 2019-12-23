@@ -106,6 +106,9 @@ primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.d
 
 .no-border {
   border: none !important;
+  & h6{
+    margin: 10px 0!important;
+  }
 }
 
 .card {
@@ -120,6 +123,7 @@ primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.d
   background-clip: unset;
   border: none;
   border-radius: 0;
+  padding: 20px;
 }
 
 .card-header {
@@ -275,5 +279,5 @@ footer {
 
 
 .form-wrapper{
-
+ margin-bottom: 30px;
 }

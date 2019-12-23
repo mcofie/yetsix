@@ -90,6 +90,9 @@ primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.d
 .no-border {
   border: none !important;
 }
+.no-border h6 {
+  margin: 10px 0 !important;
+}
 
 .card {
   position: relative;
@@ -103,6 +106,7 @@ primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.d
   background-clip: unset;
   border: none;
   border-radius: 0;
+  padding: 20px;
 }
 
 .card-header {
@@ -231,6 +235,10 @@ footer a {
   width: 100%;
   float: left;
   padding: 50px 0;
+}
+
+.form-wrapper {
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=app.css.map */
