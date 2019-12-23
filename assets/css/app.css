@@ -159,9 +159,10 @@ footer {
 
 .top-section {
   background-color: #060551;
-  padding: 100px 0;
+  padding: 30px 0;
   color: #FFF;
   border-bottom: 1px solid #f5f5f5;
+  margin-bottom: -350px;
 }
 .top-section h2 {
   font-size: 2.5em;
@@ -234,11 +235,89 @@ footer a {
 .layout-section {
   width: 100%;
   float: left;
-  padding: 50px 0;
+}
+
+button, a {
+  cursor: pointer;
 }
 
 .form-wrapper {
   margin-bottom: 30px;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem transparent !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .top-section {
+    margin-bottom: -250px;
+    text-align: center;
+  }
+  .top-section h2 {
+    font-size: 2.2em;
+  }
+  .top-section p {
+    font-size: 1.3em;
+  }
+
+  .mid-section {
+    margin-top: 122px;
+  }
+
+  .two-page-layout .col-md-4 {
+    padding-top: 10px !important;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .top-section {
+    margin-bottom: -250px;
+  }
+  .top-section h2 {
+    font-size: 2.2em;
+  }
+  .top-section p {
+    font-size: 1.3em;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .top-section {
+    margin-bottom: -250px;
+  }
+  .top-section h2 {
+    font-size: 2em;
+  }
+  .top-section p {
+    font-size: 1.1em;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .top-section {
+    margin-bottom: -350px;
+  }
+  .top-section h2 {
+    font-size: 2.3em;
+  }
+  .top-section p {
+    font-size: 1.3em;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .top-section {
+    margin-bottom: -350px;
+  }
+  .top-section h2 {
+    font-size: 2.5em;
+  }
+  .top-section p {
+    font-size: 1.5em;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

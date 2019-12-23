@@ -106,8 +106,9 @@ primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.d
 
 .no-border {
   border: none !important;
-  & h6{
-    margin: 10px 0!important;
+
+  & h6 {
+    margin: 10px 0 !important;
   }
 }
 
@@ -178,9 +179,10 @@ footer {
 
 .top-section {
   background-color: $primary-color;
-  padding: 100px 0;
+  padding: 30px 0;
   color: #FFF;
   border-bottom: 1px solid $light-grey;
+  margin-bottom: -350px;
 
   & h2 {
     font-size: 2.5em;
@@ -268,7 +270,7 @@ footer {
 .layout-section {
   width: 100%;
   float: left;
-  padding: 50px 0;
+  //padding: 50px 0;
 }
 
 .left-section {
@@ -277,7 +279,105 @@ footer {
 .right-section {
 }
 
+button, a {
+  cursor: pointer;
+}
 
-.form-wrapper{
- margin-bottom: 30px;
+.form-wrapper {
+  margin-bottom: 30px;
+}
+
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem transparent !important;
+}
+
+
+//Media Queries
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .top-section {
+    margin-bottom: -250px;
+    text-align: center;
+
+    & h2 {
+      font-size: 2.2em;
+    }
+
+    & p {
+      font-size: 1.3em;
+    }
+  }
+
+  .mid-section {
+    margin-top: 122px;
+  }
+
+  .two-page-layout {
+    & .col-md-4 {
+      padding-top: 10px !important;
+    }
+  }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .top-section {
+    margin-bottom: -250px;
+
+    & h2 {
+      font-size: 2.2em;
+    }
+
+    & p {
+      font-size: 1.3em;
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .top-section {
+    margin-bottom: -250px;
+
+    & h2 {
+      font-size: 2em;
+    }
+
+    & p {
+      font-size: 1.1em;
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .top-section {
+    margin-bottom: -350px;
+
+    & h2 {
+      font-size: 2.3em;
+    }
+
+    & p {
+      font-size: 1.3em;
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .top-section {
+    margin-bottom: -350px;
+
+    & h2 {
+      font-size: 2.5em;
+    }
+
+    & p {
+      font-size: 1.5em;
+    }
+  }
 }
