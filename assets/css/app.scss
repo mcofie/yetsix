@@ -391,6 +391,7 @@ button, a {
       font-size: 1.1em;
     }
   }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -406,6 +407,10 @@ button, a {
       font-size: 1.3em;
     }
   }
+
+  .feedback-button {
+    top: 35%;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -420,5 +425,9 @@ button, a {
     & p {
       font-size: 1.5em;
     }
+  }
+
+  .feedback-button {
+    top: 35%;
   }
 }
