@@ -83,7 +83,12 @@ h1, h2, h3, h5, h4, h6, nav a {
   color: #FFF;
   background-color: #0c0b5a;
   border: none;
-  border-bottom: 1px solid #2d2d2d;
+  border-bottom: 1px solid #252469;
+}
+
+.list-group-item {
+  padding: .45rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 nav {
@@ -96,6 +101,34 @@ nav {
     }
   }
 }
+
+
+.feedback-button {
+  height: 40px;
+  border: solid 3px #FFF;
+  background: #3a80ff;
+  width: 100px;
+  line-height: 32px;
+  border-radius: 0 0 10px 10px;
+  -webkit-transform: rotate(-90deg);
+  font-weight: 600;
+  color: white;
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  text-align: center;
+  font-size: 0.9em;
+  position: fixed;
+  left: -36px;
+  top: 45%;
+  z-index: 999;
+  box-shadow: -1px 0px 3px 0px #989898;
+}
+
+button:focus {
+  outline: none;
+}
+
 
 primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle,
 .btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
@@ -179,7 +212,7 @@ footer {
 
 .top-section {
   background-color: $primary-color;
-  padding: 30px 0;
+  padding: 120px 0;
   color: #FFF;
   border-bottom: 1px solid $light-grey;
   margin-bottom: -350px;
@@ -319,6 +352,10 @@ button, a {
       padding-top: 10px !important;
     }
   }
+
+  .feedback-button {
+    top: 60%;
+  }
 }
 
 
@@ -334,6 +371,10 @@ button, a {
     & p {
       font-size: 1.3em;
     }
+  }
+
+  .feedback-button {
+    top: 60%;
   }
 }
 

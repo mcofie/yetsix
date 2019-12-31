@@ -12,50 +12,56 @@
     <link rel="icon" href="assets/imgs/yetsix-favicon.png">
 </head>
 <body>
+<a href="request-a-license.html">
+    <button id="popup" class="feedback-button">Feedback</button>
+</a>
 <header>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/imgs/yetsix-logo.png" class="img-fluid" style="height: 25px;"/>
-                </a>
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                        data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse" id="navbarsExample04">
-                    <ul class="navbar-nav  mx-auto d-md-flex text-sm-left">
-                        <li class="d-sm-block d-md-none">
-                            <form class="form-inline my-2 my-lg-0" style="margin-top: 15px;">
-                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
-                                       aria-label="Search">
-                            </form>
-                        </li>
-                        <li class="nav-item active trns-ease-1s">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active trns-ease-1s">
-                            <a class="nav-link" href="meet-the-team.html">Meet The Team <span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active trns-ease-1s">
-                            <a class="nav-link" href="contact.html">Contact<span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
+        <div class="navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav class="navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/imgs/yetsix-logo.png" class="img-fluid" style="height: 25px;"/>
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                            data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navbarsExample04">
+                        <ul class="navbar-nav  mx-auto d-md-flex text-sm-left">
+                            <li class="d-sm-block d-md-none">
+                                <form class="form-inline my-2 my-lg-0" style="margin-top: 15px;">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                           aria-label="Search">
+                                </form>
+                            </li>
+                            <li class="nav-item active trns-ease-1s">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active trns-ease-1s">
+                                <a class="nav-link" href="meet-the-team.html">Meet The Team <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active trns-ease-1s">
+                                <a class="nav-link" href="contact.html">Contact<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="alert alert-warning alert-dismissible fade show" role="alert"
+                 style="margin-top: 0px; padding: 25px 0;">
+                <div class="container text-center">
+                    <p style="margin-bottom: 0;">
+                        Free logistics for pilot! Limited time only. Logistics for the pilot will be provided for free
+                    </p>
                 </div>
             </div>
-        </nav>
+        </div>
     </div>
 </header>
-<div class="alert alert-warning alert-dismissible fade show" role="alert" style="margin-top: 60px; padding: 25px 0;">
-    <div class="container text-center">
-        <p style="margin-bottom: 0;">
-            Free logistics for pilot! Limited time only. Logistics for the pilot will be provided for free
-        </p>
-    </div>
-</div>
 <div class="top-section">
     <div class="container">
         <div class="row justify-content-start text-left">
@@ -222,20 +228,20 @@
                         </li>
                     </ul>
                 </div>
-<!--                <div class="col-md-4">-->
-<!--                    <ul class="list-unstyled">-->
-<!--                        <li>-->
-<!--                            <div class="layout-section left-section" style="min-height: 445px;">-->
-<!--&lt;!&ndash;                                <img src="assets/imgs/screenshots/appointment-screenshot.png" class="img-fluid">&ndash;&gt;-->
-<!--                            </div>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <p>-->
-<!--                                Know what question your patients are pondering and create relevant content.-->
-<!--                            </p>-->
-<!--                        </li>-->
-<!--                    </ul>-->
-<!--                </div>-->
+                <!--                <div class="col-md-4">-->
+                <!--                    <ul class="list-unstyled">-->
+                <!--                        <li>-->
+                <!--                            <div class="layout-section left-section" style="min-height: 445px;">-->
+                <!--&lt;!&ndash;                                <img src="assets/imgs/screenshots/appointment-screenshot.png" class="img-fluid">&ndash;&gt;-->
+                <!--                            </div>-->
+                <!--                        </li>-->
+                <!--                        <li>-->
+                <!--                            <p>-->
+                <!--                                Know what question your patients are pondering and create relevant content.-->
+                <!--                            </p>-->
+                <!--                        </li>-->
+                <!--                    </ul>-->
+                <!--                </div>-->
             </div>
         </div>
     </div>
@@ -316,7 +322,7 @@
     <div class="d-sm-block d-md-none">
         <div class="container">
             <div class="accordion" id="accordionExample">
-                <div class="card">
+                <div class="card" style="padding: 10px 0;">
                     <div class="card-header" id="headingOne">
                         <div class="row" data-toggle="collapse" data-target="#collapseOne"
                              aria-expanded="false" aria-controls="collapseOne">
@@ -346,7 +352,7 @@
                 </div>
             </div>
             <div class="accordion" id="accordionExampleTwo">
-                <div class="card">
+                <div class="card" style="padding: 10px 0;">
                     <div class="card-header" id="headingTwo">
                         <div class="row" data-toggle="collapse" data-target="#collapseTwo"
                              aria-expanded="false" aria-controls="collapseTwo">
@@ -375,8 +381,8 @@
                 </div>
             </div>
             <div class="accordion" id="accordionExampleThree">
-                <div class="card">
-                    <div class="card-header" id="headingThree">
+                <div class="card" style="padding: 10px 0;">
+                    <div class="card-header" id="headingThree" style="border:none;">
                         <div class="row" data-toggle="collapse" data-target="#collapseThree"
                              aria-expanded="false" aria-controls="collapseThree">
                             <div class="col-9" style="padding-left: 0;">
