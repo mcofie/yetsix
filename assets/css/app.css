@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap");
+@import "krymoh.min.css";
 @font-face {
   font-family: "SF-Bold";
   font-style: normal;
@@ -88,10 +89,10 @@ nav a:hover {
 .feedback-button {
   height: 40px;
   border: solid 3px #FFF;
-  background: #3a80ff;
+  background: #3c9c0b;
   width: 100px;
   line-height: 32px;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 5px 5px;
   -webkit-transform: rotate(-90deg);
   font-weight: 600;
   color: white;
@@ -256,6 +257,30 @@ footer {
 footer a {
   color: #212529;
   font-size: 0.8em;
+}
+
+.collapsed .icon {
+  -webkit-transform: rotate(180deg) !important;
+  -moz-transform: rotate(180deg) !important;
+  -o-transform: rotate(180deg) !important;
+  -ms-transform: rotate(180deg) !important;
+  transform: rotate(180deg) !important;
+}
+
+div[aria-expanded=false] .icon {
+  -webkit-transform: rotate(180deg) !important;
+  -moz-transform: rotate(180deg) !important;
+  -o-transform: rotate(180deg) !important;
+  -ms-transform: rotate(180deg) !important;
+  transform: rotate(180deg) !important;
+}
+
+div[aria-expanded=true] .icon {
+  -webkit-transform: rotate(45deg) !important;
+  -moz-transform: rotate(45deg) !important;
+  -o-transform: rotate(45deg) !important;
+  -ms-transform: rotate(45deg) !important;
+  transform: rotate(45deg) !important;
 }
 
 #bottom-two-page-layout {
