@@ -283,6 +283,26 @@ footer a {
   font-size: 0.8em;
 }
 
+.icon {
+  font-size: 0.8em !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI4cHgiIGhlaWdodD0iMThweCIgdmlld0JveD0iMCAwIDggMTgiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Ik0xLjI5LDAuOThMNy41LDlsLTYuMjEsOC4wMWwtMC42OC0wLjU0TDYuNDIsOWwtNS44LTcuNDlMMS4yOSwwLjk4eiIgZmlsbD0iI2Q2ZDZkNiIgLz48L3N2Zz4=);
+}
+
+hr {
+  margin-bottom: 0.2em;
+  margin-top: 0.8em;
+}
+
+.breadcrumb {
+  padding: 0.75rem 0;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: transparent;
+}
+
 .collapsed .icon {
   -webkit-transform: rotate(180deg) !important;
   -moz-transform: rotate(180deg) !important;
