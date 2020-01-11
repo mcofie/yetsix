@@ -36,22 +36,27 @@
                                            aria-label="Search">
                                 </form>
                             </li>
-                            <li class="nav-item active trns-ease-1s">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item active trns-ease-1s">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="meet-the-team.html">Meet The Team <span
                                         class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item active trns-ease-1s">
-                                <a class="nav-link" href="contact.html">Contact<span
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html">Support<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html">Account<span
                                         class="sr-only">(current)</span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <div class="alert alert-warning alert-dismissible fade show d-none d-sm-none d-md-block" role="alert">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-2">
@@ -66,6 +71,42 @@
                                     <p>Calculate missed revenue</p>
                                 </li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="alert alert-warning alert-dismissible fade show d-sm-block d-md-none" role="alert">
+                <div class="container">
+                    <div class="accordion" id="navAccordion">
+                        <div class="card" style="padding: 1px 0;">
+                            <div class="card-header" style="border-bottom: none;" id="nav">
+                                <div class="row" data-toggle="collapse" data-target="#navcollapse"
+                                     aria-expanded="false" aria-controls="navcollapse">
+                                    <div class="col-9" style="padding-left: 0;">
+                                        <div class="mb-0">
+                                            <h6>
+                                                Leila
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        <i class="fas fa-chevron-up fa-1x nav-icon trns-all-1s"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div id="navcollapse" class="collapse" aria-labelledby="nav"
+                                 data-parent="#navAccordion">
+                                <div class="card-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Overview</li>
+                                    </ul>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Calculate missed revenue</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -268,25 +309,44 @@
 <footer>
     <div class="d-none d-sm-none d-md-block">
         <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">
+                        <img src="assets/imgs/yetsix-favicon.png" style="height: 20px;"/>
+                    </a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Home</li>
+                    <!--                    <li class="breadcrumb-item active" aria-current="page">Support</li>-->
+                </ol>
+            </nav>
+            <br>
             <div class="row justify-content-center">
                 <div class="col-md-3">
                     <ul class="list-unstyled">
-                        <li><h6>Company</h6></li>
-                        <li><a href="meet-the-team.html">Meet The Team</a></li>
+                        <li><h6>Products</h6></li>
+                        <li><a href="#"><p>Leila</p></a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
                     <ul class="list-unstyled">
-                        <li><h6>Our Products</h6></li>
-                        <li><a href="#">Leila</a></li>
+                        <li><h6>Account</h6></li>
+                        <li><a href="meet-the-team.html"><p>Manage your account</p></a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
                     <ul class="list-unstyled">
-                        <li><h6>Contact</h6></li>
+                        <li><h6>About Yetsix</h6></li>
+                        <li><a href="#"><p>News</p></a></li>
+                        <li><a href="#"><p>Job opportunities</p></a></li>
+                        <li><a href="#"><p>Yetsix team</p></a></li>
                     </ul>
                 </div>
-                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><h6>Support</h6></li>
+                        <li><a href="#"><p>FAQ</p></a></li>
+                        <li><a href="#"><p>Get Help == Contact Support</p></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -297,41 +357,11 @@
                     <li class="breadcrumb-item"><a href="#">
                         <img src="assets/imgs/yetsix-favicon.png" style="height: 20px;"/>
                     </a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Team</li>
-                    <li class="breadcrumb-item active" aria-current="page">Support</li>
+                    <li class="breadcrumb-item active" aria-current="page">Home</li>
+                    <!--                    <li class="breadcrumb-item active" aria-current="page">Support</li>-->
                 </ol>
             </nav>
             <hr>
-            <div class="accordion" id="accordionExample">
-                <div class="card" style="padding: 1px 0;">
-                    <div class="card-header" id="headingOne">
-                        <div class="row" data-toggle="collapse" data-target="#collapseOne"
-                             aria-expanded="false" aria-controls="collapseOne">
-                            <div class="col-9" style="padding-left: 0;">
-                                <div class="mb-0">
-                                    <p>
-                                        Our Company
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-3 text-right">
-                                <i class="fas fa-plus icon trns-all-1s"></i>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                         data-parent="#accordionExample">
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">About Us</li>
-                                <li class="list-group-item">Meet The Team</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="accordion" id="accordionExampleTwo">
                 <div class="card" style="padding: 1px 0;">
                     <div class="card-header" id="headingTwo">
@@ -361,15 +391,15 @@
                     </div>
                 </div>
             </div>
-            <div class="accordion" id="accordionExampleThree">
+            <div class="accordion" id="accordionExample">
                 <div class="card" style="padding: 1px 0;">
-                    <div class="card-header" id="headingThree" style="border:none;">
-                        <div class="row" data-toggle="collapse" data-target="#collapseThree"
-                             aria-expanded="false" aria-controls="collapseThree">
+                    <div class="card-header" id="headingOne">
+                        <div class="row" data-toggle="collapse" data-target="#collapseOne"
+                             aria-expanded="false" aria-controls="collapseOne">
                             <div class="col-9" style="padding-left: 0;">
                                 <div class="mb-0">
                                     <p>
-                                        Support
+                                        About Yetsix
                                     </p>
                                 </div>
                             </div>
@@ -380,13 +410,13 @@
 
                     </div>
 
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                         data-parent="#accordionExampleThree">
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                         data-parent="#accordionExample">
                         <div class="card-body">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Facebook</li>
-                                <li class="list-group-item">Twitter</li>
-                                <li class="list-group-item">LinkedIn</li>
+                                <li class="list-group-item">News</li>
+                                <li class="list-group-item">Job Opportunities</li>
+                                <li class="list-group-item">Yetsix Team</li>
                             </ul>
                         </div>
                     </div>
@@ -415,31 +445,72 @@
                          data-parent="#accordionExampleFour">
                         <div class="card-body">
                             <ul class="list-group list-group-flush">
-                                <!--                                <li class="list-group-item">Facebook</li>-->
-                                <!--                                <li class="list-group-item">Twitter</li>-->
-                                <!--                                <li class="list-group-item">LinkedIn</li>-->
+                                <li class="list-group-item">Manage your account</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="accordion" id="accordionExampleThree">
+                <div class="card" style="padding: 1px 0;">
+                    <div class="card-header" id="headingThree" style="border:none;">
+                        <div class="row" data-toggle="collapse" data-target="#collapseThree"
+                             aria-expanded="false" aria-controls="collapseThree">
+                            <div class="col-9" style="padding-left: 0;">
+                                <div class="mb-0">
+                                    <p>
+                                        Support
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-3 text-right">
+                                <i class="fas fa-plus icon trns-all-1s"></i>
+                            </div>
+                        </div>
 
+                    </div>
+
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                         data-parent="#accordionExampleThree">
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">FAG</li>
+                                <li class="list-group-item">Get Help = Contact Support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container">
         <div class="row" style="margin-top: 20px;">
-            <div class="col-md-4">
-                <h6 style="font-size: small; display: flex; margin-top: 5px;">
-                    &copy; 2019 | YetSix - All Rights Reserved.
-                </h6>
-            </div>
-            <div class="col-md-8 text-left">
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#">Legal</a></li>
-                    <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>
-                    <li class="list-inline-item"><a href="#">License</a></li>
+            <div class="col-md-8 footer-text">
+                <ul class="list-unstyled">
+                    <li>
+                        <p>Request a license online or on phone: 1-980-833-5881</p>
+                    </li>
+                    <li>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><img src="assets/imgs/usa.png" style="height: 20px;"
+                                                              class="img-fluid"></li>
+                            <li class="list-inline-item"><p>United States </p></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p style=" display: flex; margin-top: 5px;">
+                            Copyright &copy; 2020 YetSix LLC - All Rights Reserved.
+                        </p>
+                    </li>
                 </ul>
             </div>
+            <!--            <div class="col-md-4 text-left">-->
+            <!--                <ul class="list-inline">-->
+            <!--                    <li class="list-inline-item"><a href="#">Legal</a></li>-->
+            <!--                    <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>-->
+            <!--                    <li class="list-inline-item"><a href="#">License</a></li>-->
+            <!--                </ul>-->
+            <!--            </div>-->
         </div>
     </div>
 </footer>

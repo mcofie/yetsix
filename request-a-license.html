@@ -15,39 +15,101 @@
 <body>
 <header>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/imgs/yetsix-logo.png" class="img-fluid" style="height: 25px;"/>
-                </a>
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                        data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse" id="navbarsExample04">
-                    <ul class="navbar-nav  mx-auto d-md-flex text-sm-left">
-                        <li class="d-sm-block d-md-none">
-                            <form class="form-inline my-2 my-lg-0" style="margin-top: 15px;">
-                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
-                                       aria-label="Search">
-                            </form>
-                        </li>
-                        <li class="nav-item active trns-ease-1s">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active trns-ease-1s">
-                            <a class="nav-link" href="meet-the-team.html">Meet The Team <span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active trns-ease-1s">
-                            <a class="nav-link" href="contact.html">Contact<span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
+        <div class="navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav class="navbar trns-all-3s" id="navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/imgs/yetsix-logo.png" class="img-fluid" style="height: 25px;"/>
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                            data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navbarsExample04">
+                        <ul class="navbar-nav  mx-auto d-md-flex text-sm-left">
+                            <li class="d-sm-block d-md-none">
+                                <form class="form-inline my-2 my-lg-0" style="margin-top: 15px;">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                           aria-label="Search">
+                                </form>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="meet-the-team.html">Meet The Team <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html">Support<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html">Account<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="alert alert-warning alert-dismissible fade show d-none d-sm-none d-md-block" role="alert">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <h5>Leila</h5>
+                        </div>
+                        <div class="col-md-10 text-right">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <p>Overview</p>
+                                </li>
+                                <li class="list-inline-item">
+                                    <p>Calculate missed revenue</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
+            <div class="alert alert-warning alert-dismissible fade show d-sm-block d-md-none" role="alert">
+                <div class="container">
+                    <div class="accordion" id="navAccordion">
+                        <div class="card" style="padding: 1px 0;">
+                            <div class="card-header" style="border-bottom: none;" id="nav">
+                                <div class="row" data-toggle="collapse" data-target="#navcollapse"
+                                     aria-expanded="false" aria-controls="navcollapse">
+                                    <div class="col-9" style="padding-left: 0;">
+                                        <div class="mb-0">
+                                            <h6>
+                                                Leila
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        <i class="fas fa-chevron-up fa-1x nav-icon trns-all-1s"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div id="navcollapse" class="collapse" aria-labelledby="nav"
+                                 data-parent="#navAccordion">
+                                <div class="card-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Overview</li>
+                                    </ul>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Calculate missed revenue</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </header>
 <div class="belt" style="margin-top:60px; margin-bottom: 30px;">
