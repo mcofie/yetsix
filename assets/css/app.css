@@ -52,9 +52,8 @@ header {
 }
 
 .btn {
-  font-size: 17px;
   line-height: 1.47059;
-  height: 40px;
+  height: 30px;
   font-weight: 400;
   letter-spacing: -0.022em;
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -69,12 +68,15 @@ header {
   cursor: pointer;
   display: inline-block;
   min-width: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 3px;
   text-align: center;
   white-space: nowrap;
+}
+.btn h6 {
+  font-size: 0.9em;
 }
 
 h1, h2, h3, h5, h4, h6 {
@@ -112,8 +114,8 @@ h1, h2, h3, h5, h4, h6 {
 .alert-warning p {
   margin-bottom: 0;
 }
-.alert-warning h4 {
-  margin-top: 6px;
+.alert-warning h5 {
+  margin-top: 3px;
 }
 
 .list-group-item {
