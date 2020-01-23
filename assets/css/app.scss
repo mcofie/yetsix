@@ -41,9 +41,15 @@ body {
   font-style: normal;
   color: #333333;
 }
+.btn-outline-light:not(:disabled):not(.disabled).active, .btn-outline-light:not(:disabled):not(.disabled):active, .show>.btn-outline-light.dropdown-toggle {
+  color: #FFF;
+  background-color: #f8f9fa;
+  border-color: transparent;
+}
 
 p {
-  font-size: 19px;
+  font-size: 17px;
+  font-weight: 100;
 }
 
 header {
