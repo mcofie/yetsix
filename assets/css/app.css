@@ -29,7 +29,7 @@ body {
 }
 
 p {
-  font-size: 17px;
+  font-size: 19px;
 }
 
 header {
@@ -225,7 +225,7 @@ primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.d
   font-weight: 600;
 }
 .mid-section p {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.75;
   font-weight: 400;
   letter-spacing: -0.022em;
