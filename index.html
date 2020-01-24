@@ -23,11 +23,42 @@
                     <a class="navbar-brand" href="index.html">
                         <img src="assets/imgs/yetsix-logo.png" class="img-fluid" style="height: 25px;"/>
                     </a>
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                            data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9868;</span>
+
+                    <div id="myNav" class="overlay">
+                        <div class="row justify-content-center" style="margin: 15px 0 7px 0;">
+                            <div class="col-2">
+                                <i class="fas fa-times fa-2x" onclick="closeNav()"></i>
+                            </div>
+                            <div class="col-8 text-center">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="assets/imgs/yetsix-logo.png" class="img-fluid" style="height: 25px;"/>
+                                </a>
+                            </div>
+                            <div class="col-2"></div>
+                        </div>
+                        <div class="overlay-content">
+                            <ul class="list-group list-group-flush text-left">
+                                <li class="list-group-item">
+                                    <div class="input-group flex-nowrap input-group-sm">
+                                        <div class="input-group-prepend">
+                                <span class="input-group-text" id="addon-wrapping" style="background-color: #FFF;">
+                                    <i class="fas fa-search" style="color: #bcbcbd !important;"></i>
+                                </span>
+                                        </div>
+                                        <input type="text" class="form-control"
+                                               style="border-left: none;"
+                                               placeholder="Search Support">
+                                    </div>
+                                </li>
+                                <li class="list-group-item"><a href="index.html"><h6>Home</h6></a></li>
+                                <li class="list-group-item"><a href="meet-the-team.html"><h6>Meet the team</h6></a></li>
+                                <li class="list-group-item"><a href="support.html"><h6>Support</h6></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
                     <div class="navbar-collapse collapse" id="navbarsExample04">
                         <ul class="navbar-nav  mx-auto d-md-flex text-sm-left">
                             <li class="d-sm-block d-md-none">
