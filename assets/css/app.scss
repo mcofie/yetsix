@@ -101,11 +101,20 @@ header {
   }
 }
 
+#myNav .form-control, #addon-wrapping {
+  background-color: #252525 !important;
+  border-color: #252525 !important;
+  height: 45px;
+}
+
 h1, h2, h3, h5, h4, h6 {
   font-family: "SF-Bold" !important;
   margin-bottom: 0 !important;
 }
 
+.fa-2x {
+  font-size: 1.8em !important;
+}
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
   margin: 0 25px;
