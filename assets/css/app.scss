@@ -413,7 +413,7 @@ footer {
     font-size: 11px;
   }
 
-  & img{
+  & img {
     height: 60px;
   }
 }
@@ -573,6 +573,17 @@ button, a {
 @media only screen and (max-width: 600px) {
   .alert {
     padding: 0.5em !important;
+  }
+
+  .navbar .container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .alert-warning {
+    .col-6 {
+      padding-right: 0px;
+    }
   }
 
   .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
