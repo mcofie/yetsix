@@ -369,6 +369,9 @@ footer a {
 .platforms .platform-text {
   font-size: 11px;
 }
+.platforms img {
+  height: 60px;
+}
 
 hr {
   margin-bottom: 0.8em;
