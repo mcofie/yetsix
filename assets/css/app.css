@@ -261,6 +261,7 @@ primary:not(:disabled):not(.disabled).active,
 .mid-section h6 {
   font-family: "SF-Regular" !important;
   margin-bottom: 5px !important;
+  color: #000;
   font-weight: 600;
 }
 .mid-section p {
@@ -288,6 +289,14 @@ footer h6 {
 footer .footer-text,
 footer a {
   font-size: 0.9em !important;
+}
+
+.communities-topics {
+  width: 100%;
+  float: left;
+  height: 200px;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
 }
 
 .top-section {
@@ -345,15 +354,18 @@ footer a {
   margin-bottom: 5px !important;
 }
 
+#community-product-area {
+  padding: 15px 0;
+}
+#community-product-area img {
+  height: 120px;
+}
+
 .belt {
   width: 100%;
   padding: 50px 0;
   float: left;
   color: #fff;
-  border-bottom: 1px solid #f5f5f5;
-  background-image: url("../imgs/bg-halftone-black-20p@2x.png");
-  background-repeat: no-repeat;
-  background-position: left;
   background-color: #131b30;
 }
 .belt button {

@@ -280,6 +280,7 @@ primary:not(:disabled):not(.disabled).active,
   h6 {
     font-family: "SF-Regular" !important;
     margin-bottom: 5px !important;
+    color: #000;
     font-weight: 600;
   }
 
@@ -314,6 +315,14 @@ footer {
   }
 }
 
+.communities-topics{
+  width: 100%;
+  float: left;
+  height: 200px;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+
 .top-section {
   background-color: #fff;
   padding: 120px 0 0 0;
@@ -326,16 +335,16 @@ footer {
   }
 }
 
-.selectable{
+.selectable {
   width: 100%;
   float: left;
   padding: 10px 5px;
-  background-color:#fff;
+  background-color: #fff;
   border: 1px solid #c8c8c8;
   border-radius: 4px;
   text-align: center;
 
-  & p{
+  & p {
     font-size: 0.95em;
     padding: 0;
     margin: 0;
@@ -366,10 +375,6 @@ footer {
   float: left;
   margin: 10px 0;
 
-  & img {
-    //height: 65px !important;
-  }
-
   & h5 {
     font-family: "SF-Bold" !important;
     line-height: 1.16667 !important;
@@ -378,16 +383,18 @@ footer {
     margin-bottom: 5px !important;
   }
 }
+#community-product-area {
+  padding: 15px 0;
+  & img {
+    height: 120px;
+  }
+}
 
 .belt {
   width: 100%;
   padding: 50px 0;
   float: left;
   color: #fff;
-  border-bottom: 1px solid #f5f5f5;
-  background-image: url("../imgs/bg-halftone-black-20p@2x.png");
-  background-repeat: no-repeat;
-  background-position: left;
   background-color: #131b30;
 
   & button {
@@ -665,8 +672,8 @@ a {
     padding: 0.75rem 4.5rem !important;
   }
 
-  .selectable{
-    & p{
+  .selectable {
+    & p {
       font-size: 0.9em;
     }
   }
@@ -682,7 +689,6 @@ a {
       font-size: 1.3em;
     }
   }
-
 
   .mid-section {
     margin-top: 0;
