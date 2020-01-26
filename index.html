@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <!-- Required meta tags -->
@@ -11,152 +12,169 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="icon" href="assets/imgs/yetsix-favicon.png">
 </head>
-<body>
-<a href="request-a-license.html">
-    <button id="popup" class="feedback-button">Feedback</button>
-</a>
-<header>
-    <div class="container">
-        <div class="navbar-expand-lg navbar-light bg-light fixed-top">
-            <nav class="navbar trns-all-3s" id="navbar">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/imgs/yetsix-logo.png" class="img-fluid" style="height: 25px;"/>
-                    </a>
-                    <span style="font-size:30px;cursor:pointer" class="d-sm-block d-md-none"
-                          onclick="openNav()">&#9868;</span>
 
-                    <div id="myNav" class="overlay">
-                        <div class="container">
-                            <div class="row justify-content-center" style="width: 100%;margin: 15px 0 7px 0;">
-                                <div class="col-2">
-                                    <i class="fas fa-times fa-2x" onclick="closeNav()"></i>
-                                </div>
-                                <div class="col-8 text-center">
-                                    <a class="navbar-brand" href="index.html">
-                                        <img src="assets/imgs/yetsix-logo.png" class="img-fluid" style="height: 27px;"/>
-                                    </a>
-                                </div>
-                                <div class="col-2 text-right">
-                                    <i class="fas fa-cog fa-2x" onclick="closeNav()"></i>
+<body>
+    <a href="request-a-license.html">
+        <button id="popup" class="feedback-button">Feedback</button>
+    </a>
+    <header>
+        <div class="container">
+            <div class="navbar-expand-lg navbar-light bg-light fixed-top">
+                <nav class="navbar trns-all-3s" id="navbar">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/imgs/yetsix-logo.png" class="img-fluid" style="height: 25px;" />
+                        </a>
+                        <span style="font-size:30px;cursor:pointer" class="d-sm-block d-md-none"
+                            onclick="openNav()">&#9868;</span>
+
+                        <div id="myNav" class="overlay">
+                            <div class="container" id="custom-menu-dropdown">
+                                <div class="row justify-content-center" style="width: 100%;margin: 15px 0 7px 0;">
+                                    <div class="col-2">
+                                        <i class="fas fa-times fa-2x" onclick="closeNav()"></i>
+                                    </div>
+                                    <div class="col-8 text-center">
+                                        <a class="navbar-brand" href="index.html">
+                                            <img src="assets/imgs/yetsix-logo.png" class="img-fluid"
+                                                style="height: 27px;" />
+                                        </a>
+                                    </div>
+                                    <div class="col-2 text-right">
+                                        <i class="fas fa-cog fa-2x" onclick="closeNav()"></i>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="overlay-content">
-                            <ul class="list-group list-group-flush text-left">
-                                <li class="list-group-item">
-                                    <div class="input-group flex-nowrap input-group-sm">
-                                        <div class="input-group-prepend">
-                                <span class="input-group-text" id="addon-wrapping" style="background-color: #FFF;">
-                                    <i class="fas fa-search" style="color: #bcbcbd !important;"></i>
-                                </span>
+                            <div class="overlay-content">
+                                <ul class="list-group list-group-flush text-left">
+                                    <li class="list-group-item">
+                                        <div class="input-group flex-nowrap input-group-sm">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="addon-wrapping"
+                                                    style="background-color: #FFF;">
+                                                    <i class="fas fa-search" style="color: #bcbcbd !important;"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" class="form-control" style="border-left: none;"
+                                                placeholder="Search Support">
                                         </div>
-                                        <input type="text" class="form-control"
-                                               style="border-left: none;"
-                                               placeholder="Search Support">
+                                    </li>
+                                    <li class="list-group-item"><a href="index.html">
+                                            <h6>Home</h6>
+                                        </a></li>
+                                    <li class="list-group-item"><a href="meet-the-team.html">
+                                            <h6>Meet the team</h6>
+                                        </a></li>
+                                    <li class="list-group-item"><a href="support.html">
+                                            <h6>Support</h6>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="navbar-collapse collapse" id="navbarsExample04">
+                            <ul class="navbar-nav  mx-auto d-md-flex text-sm-left">
+                                <li class="d-sm-block d-md-none">
+                                    <form class="form-inline my-2 my-lg-0" style="margin-top: 15px;">
+                                        <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                            aria-label="Search">
+                                    </form>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="meet-the-team.html">Meet The Team <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="support.html">Support<span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="contact.html">
+                                        <i class="fas fa-search"></i>
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item active">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu2"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-cog"></i>
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <button class="dropdown-item" type="button">
+                                            <img src="./assets/imgs/account.svg" style="height:30px;"
+                                                class="img-fluid" />
+                                            Account</button>
+                                        <hr>
+                                        <button class="dropdown-item" type="button">
+                                            <img src="./assets/imgs/signIn.svg" style="height:30px;"
+                                                class="img-fluid" />
+                                            <a> Sign In</a>
+                                        </button>
                                     </div>
                                 </li>
-                                <li class="list-group-item"><a href="index.html"><h6>Home</h6></a></li>
-                                <li class="list-group-item"><a href="meet-the-team.html"><h6>Meet the team</h6></a></li>
-                                <li class="list-group-item"><a href="support.html"><h6>Support</h6></a></li>
+
                             </ul>
                         </div>
                     </div>
-
-
-                    <div class="navbar-collapse collapse" id="navbarsExample04">
-                        <ul class="navbar-nav  mx-auto d-md-flex text-sm-left">
-                            <li class="d-sm-block d-md-none">
-                                <form class="form-inline my-2 my-lg-0" style="margin-top: 15px;">
-                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
-                                           aria-label="Search">
-                                </form>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="meet-the-team.html">Meet The Team <span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="support.html">Support<span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-
-                            <li class="nav-item active">
-                                <a class="nav-link" href="contact.html">
-                                    <i class="fas fa-search"></i>
-                                    <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-
-                            <li class="nav-item active">
-                                <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu2" data-toggle="dropdown"
-                                   aria-haspopup="true" aria-expanded="false">
-                                    <i class="fas fa-cog"></i>
-                                    <span class="sr-only">(current)</span>
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                    <button class="dropdown-item" type="button">Account</button>
-                                    <button class="dropdown-item" type="button"><i class="fas fa-user"></i> Sign In
+                </nav>
+                <div class="alert alert-warning alert-dismissible fade show d-none d-sm-none d-md-block" role="alert">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <h5>Leila</h5>
+                            </div>
+                            <div class="col-md-10 text-right">
+                                <a href="request-a-license.html">
+                                    <button class="btn btn-outline-light btn-sm">
+                                        <h6>Request a License</h6>
                                     </button>
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <div class="alert alert-warning alert-dismissible fade show d-none d-sm-none d-md-block" role="alert">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <h5>Leila</h5>
-                        </div>
-                        <div class="col-md-10 text-right">
-                            <a href="request-a-license.html">
-                                <button class="btn btn-outline-light btn-sm">
-                                    <h6>Request a License</h6>
-                                </button>
-                            </a>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="alert alert-warning alert-dismissible fade show d-sm-block d-md-none" role="alert">
-                <div class="container">
-                    <div class="accordion" id="navAccordion">
-                        <div class="card" style="padding: 1px 0;">
-                            <div class="card-header" style="border-bottom: none;" id="nav">
-                                <div class="row">
-                                    <div class="col-6" style="padding-left: 0;">
-                                        <div class="mb-0">
-                                            <h5>
-                                                Leila
-                                            </h5>
+                <div class="alert alert-warning alert-dismissible fade show d-sm-block d-md-none" role="alert">
+                    <div class="container">
+                        <div class="accordion" id="navAccordion">
+                            <div class="card" style="padding: 1px 0;">
+                                <div class="card-header" style="border-bottom: none;" id="nav">
+                                    <div class="row">
+                                        <div class="col-6" style="padding-left: 0;">
+                                            <div class="mb-0">
+                                                <h5>
+                                                    Leila
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <a href="request-a-license.html">
+                                                <button class="btn btn-outline-light btn-sm">
+                                                    <h6>Request a License</h6>
+                                                </button>
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="col-6 text-right">
-                                        <a href="request-a-license.html">
-                                            <button class="btn btn-outline-light btn-sm">
-                                                <h6>Request a License</h6>
-                                            </button>
-                                        </a>
-                                    </div>
+
                                 </div>
 
-                            </div>
-
-                            <div id="navcollapse" class="collapse" aria-labelledby="nav"
-                                 data-parent="#navAccordion">
-                                <div class="card-body">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Overview</li>
-                                    </ul>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Calculate missed revenue</li>
-                                    </ul>
+                                <div id="navcollapse" class="collapse" aria-labelledby="nav"
+                                    data-parent="#navAccordion">
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Overview</li>
+                                        </ul>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Calculate missed revenue</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -164,508 +182,565 @@
                 </div>
             </div>
         </div>
-    </div>
-</header>
-<div class="top-section">
-    <div class="container">
-        <div class="row justify-content-center text-center">
-            <div class="col-md-10">
-                <ul class="list-unstyled" style="margin-top: 30px; padding-top: 50px; margin-bottom: 0;">
-                    <li>
-                        <h2>Predict, plan, and prepare for patient no-shows</h2>
-                    </li>
-                    <li>
-                        <p>
-                            Get the insights that help you eliminate the effects
-                            created by no-shows at your institution.
-                            Leila offers the control and flexibility to help
-                            you predict and prepare for no-shows.
-                            With Leila, you'll increase productivity, not
-                            overwhelm your staff, and provide exceptional experience for patients.
-                        </p>
-                    </li>
-                    <br>
-                    <li>
-                        <img src="assets/imgs/ipad_7x.jpg" class="img-fluid"/>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="belt">
+    </header>
+    <div class="top-section">
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-md-10">
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled" style="margin-top: 30px; padding-top: 50px; margin-bottom: 0;">
                         <li>
-                            <h2>
-                                What's new in Leila?
-                            </h2>
+                            <h2>Predict, plan, and prepare for patient no-shows</h2>
                         </li>
                         <li>
-                            <p>Patients can now instantly schedule appointments,order prescriptions
-                                and view test results.
-                                Doctors can share educational content (video/articles) with patients.
-                                Collaborating with and messaging fellow doctors or patients is now easy.</p>
+                            <p>
+                                Get the insights that help you eliminate the effects
+                                created by no-shows at your institution.
+                                Leila offers the control and flexibility to help
+                                you predict and prepare for no-shows.
+                                With Leila, you'll increase productivity, not
+                                overwhelm your staff, and provide exceptional experience for patients.
+                            </p>
                         </li>
+                        <br>
                         <li>
-                            <a href="request-a-license.html">
-                                <button class="btn btn-outline-light btn-lg" style="height: 40px; padding: 4px 8px;">
-                                    <h6>Request a License</h6>
-                                </button>
-                            </a>
+                            <img src="assets/imgs/ipad_7x.jpg" class="img-fluid" />
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="mid-section">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-7 text-center">
-                <ul class="list-unstyled">
-                    <li>
-                        <h2>
-                            Exceptional Experience
-                        </h2>
-                    </li>
-                    <p>
-                        Extend the boundary of service and delivery of healthcare to
-                        your patients. 21st century healthcare requires you to do more.
-                    </p>
-                </ul>
-            </div>
-        </div>
-        <div class="row justify-content-center" style="margin-top: 50px;">
-            <div class="col-md-6">
-                <div class="wrapper">
-                    <div class="row">
-                        <div class="col-12">
-                            <ul class="list-unstyled">
-                                <li class="list-inline-item"><h4>Collaboration</h4></li>
-                                <li>
-                                    <p>
-                                        Collaborating with fellow physicians has never been easier.
-                                        Conveniently share scans and documents with fellow
-                                        physicians. Include your staff in conversations and plan
-                                        community engagement events.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="wrapper">
-                    <div class="row">
-                        <div class="col-12">
-                            <ul class="list-unstyled">
-                                <li class="list-inline-item"><h4>Deepen Relationships</h4></li>
-                                <li>
-                                    <p>
-                                        Connect with patients during and after visits. Provide
-                                        patients with relevant content that helps them achieve their
-                                        health goals while reinforcing your brand with patients.
-                                        Leila’s Artificial Intelligence makes it easy to create relevant
-                                        video or text content for patients.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="wrapper">
-                    <div class="row">
-                        <div class="col-12">
-                            <ul class="list-unstyled">
-                                <li class="list-inline-item"><h4>Convenience</h4></li>
-                                <li>
-                                    <p>
-                                        Your patients have busy lives, and we understand. Make it easy
-                                        for patients to reach you, cancel or reschedule appointments
-                                        and watch your institution and commitments to keeping
-                                        appointments soar.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="wrapper">
-                    <div class="row">
-                        <div class="col-12">
-                            <ul class="list-unstyled">
-                                <li class="list-inline-item"><h4>Productivity</h4></li>
-                                <li>
-                                    <p>
-                                        Equip your team to handle surges and decline in demand. Leila
-                                        makes it easy to prepare and not overwhelm your team in such
-                                        situations. You’ll efficiently manage your team's scarce resource —
-                                        time— and create an exceptional experience for your patients on
-                                        their journey to meet you.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <h4 class="text-center">
-            Leila makes it easy to schedule with confidence, so you can focus on providing the care patients need.
-        </h4>
-    </div>
-</div>
-<div class="platforms">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 text-left">
-                <ul class="list-unstyled">
-                    <li>
-                        <h5>Platforms</h5>
-                    </li>
-                    <li>
-                        <p>
-                            Stay connected with your team. Be there for your patients. Leila is
-                            available on these devices
-                        </p>
-                    </li>
-                    <li>
-                        <ul class="list-inline">
-                            <li class="list-inline-item">
-                                <ul class="list-unstyled text-center" style="margin-right:20px;">
-                                    <li><img src="assets/imgs/homepage_productnav_imac_2x.png" class="img-fluid"></li>
-                                    <li><p class="platform-text">Mac</p></li>
-                                </ul>
+        <div class="belt">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-10">
+                        <ul class="list-unstyled">
+                            <li>
+                                <h2>
+                                    What's new in Leila?
+                                </h2>
                             </li>
-
-                            <li class="list-inline-item">
-                                <ul class="list-unstyled text-center" style="margin-right:20px;">
-                                    <li><img src="assets/imgs/homepage_productnav_iphone_2x.png" class="img-fluid"></li>
-                                    <li><p class="platform-text">iPhone</p></li>
-                                </ul>
+                            <li>
+                                <p>Patients can now instantly schedule appointments,order prescriptions
+                                    and view test results.
+                                    Doctors can share educational content (video/articles) with patients.
+                                    Collaborating with and messaging fellow doctors or patients is now easy.</p>
                             </li>
-
-                            <li class="list-inline-item">
-                                <ul class="list-unstyled text-center" style="margin-right: 20px;">
-                                    <li><img src="assets/imgs/homepage_productnav_ipad_2x.png" class="img-fluid"></li>
-                                    <li><p class="platform-text">iPad</p></li>
-                                </ul>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <ul class="list-unstyled text-center" style="margin-right: 20px;">
-                                    <li><img src="assets/imgs/homepage_productnav_apple_watch_2x.png" class="img-fluid">
-                                    </li>
-                                    <li><p class="platform-text">Apple Watch</p></li>
-                                </ul>
+                            <li>
+                                <a href="request-a-license.html">
+                                    <button class="btn btn-outline-light btn-lg"
+                                        style="height: 40px; padding: 4px 8px;">
+                                        <h6>Request a License</h6>
+                                    </button>
+                                </a>
                             </li>
                         </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <ul class="list-unstyled">
-                    <li>
-                        <p>
-                            Find out what patients and doctors are saying about Leila.
-                        </p>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <p> Watch testimonial videos <i class="far fa-play-circle"></i></p>
-                        </a>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="lower-section">
-    <div class="two-page-layout">
+    <div class="mid-section">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-6 text-center">
+                <div class="col-md-7 text-center">
                     <ul class="list-unstyled">
                         <li>
-                            <div class="layout-section left-section">
-                                <img src="assets/imgs/screenshots/appointment-screenshot.png" class="img-fluid">
+                            <h2>
+                                Exceptional Experience
+                            </h2>
+                        </li>
+                        <p>
+                            Extend the boundary of service and delivery of healthcare to
+                            your patients. 21st century healthcare requires you to do more.
+                        </p>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="margin-top: 50px;">
+                <div class="col-md-6">
+                    <div class="wrapper">
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="list-unstyled">
+                                    <li class="list-inline-item">
+                                        <h4>Collaboration</h4>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Collaborating with fellow physicians has never been easier.
+                                            Conveniently share scans and documents with fellow
+                                            physicians. Include your staff in conversations and plan
+                                            community engagement events.
+                                        </p>
+                                    </li>
+                                </ul>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="wrapper">
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="list-unstyled">
+                                    <li class="list-inline-item">
+                                        <h4>Deepen Relationships</h4>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Connect with patients during and after visits. Provide
+                                            patients with relevant content that helps them achieve their
+                                            health goals while reinforcing your brand with patients.
+                                            Leila’s Artificial Intelligence makes it easy to create relevant
+                                            video or text content for patients.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="wrapper">
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="list-unstyled">
+                                    <li class="list-inline-item">
+                                        <h4>Convenience</h4>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Your patients have busy lives, and we understand. Make it easy
+                                            for patients to reach you, cancel or reschedule appointments
+                                            and watch your institution and commitments to keeping
+                                            appointments soar.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="wrapper">
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="list-unstyled">
+                                    <li class="list-inline-item">
+                                        <h4>Productivity</h4>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Equip your team to handle surges and decline in demand. Leila
+                                            makes it easy to prepare and not overwhelm your team in such
+                                            situations. You’ll efficiently manage your team's scarce resource —
+                                            time— and create an exceptional experience for your patients on
+                                            their journey to meet you.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <h4 class="text-center">
+                Leila makes it easy to schedule with confidence, so you can focus on providing the care patients need.
+            </h4>
+        </div>
+    </div>
+    <div class="platforms">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h5>Platforms</h5>
                         </li>
                         <li>
-                            <p style="margin-top: 20px;" class="text-center">
-                                Optimize resources in preparation for when patient miss appointments.
+                            <p>
+                                Stay connected with your team. Be there for your patients. Leila is
+                                available on these devices
                             </p>
+                        </li>
+                        <li>
+                            <ul class="list-inline text-md-left text-center">
+                                <li class="list-inline-item">
+                                    <ul class="list-unstyled text-center" style="margin-right:15px;">
+                                        <li><img src="assets/imgs/homepage_productnav_imac_2x.png" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="platform-text">Mac</p>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <ul class="list-unstyled text-center" style="margin-right:15px;">
+                                        <li><img src="assets/imgs/homepage_productnav_iphone_2x.png" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="platform-text">iPhone</p>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <ul class="list-unstyled text-center" style="margin-right:15px;">
+                                        <li><img src="assets/imgs/homepage_productnav_ipad_2x.png" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="platform-text">iPad</p>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <ul class="list-unstyled text-center" style="margin-right: 15px;">
+                                        <li><img src="assets/imgs/homepage_productnav_apple_watch_2x.png"
+                                                class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="platform-text">Apple Watch</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-6">
                     <ul class="list-unstyled">
                         <li>
-                            <div class="layout-section left-section">
-                                <img src="assets/imgs/screenshots/messaging-screenshot.png" class="img-fluid">
-                            </div>
-                        </li>
-                        <li>
-                            <p class="text-center">
-                                Easily Collaborate with fellow Doctors, communicate and remind patients.
+                            <p>
+                                Find out what patients and doctors are saying about Leila.
                             </p>
                         </li>
+                        <li>
+                            <a href="#">
+                                <p> Watch testimonial videos <i class="far fa-play-circle"></i></p>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<footer>
-    <div class="d-none d-sm-none d-md-block">
-        <div class="container">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">
-                        <img src="assets/imgs/yetsix-favicon.png" style="height: 20px;"/>
-                    </a></li>
-                    <li class="breadcrumb-item active" aria-current="page">
-                        <a>Home</a>
-                    </li>
-                    <!--                    <li class="breadcrumb-item active" aria-current="page">Support</li>-->
-                </ol>
-            </nav>
-            <br>
-            <div class="row justify-content-center">
-                <div class="col-md-3">
-                    <ul class="list-unstyled">
-                        <li><h6>Products</h6></li>
-                        <li><a href="leila.html"><p>Leila</p></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <ul class="list-unstyled">
-                        <li><h6>Account</h6></li>
-                        <li><a href="manage-your-account.html"><p>Manage your account</p></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <ul class="list-unstyled">
-                        <li><h6>About Yetsix</h6></li>
-                        <li><a href="news.html"><p>News</p></a></li>
-                        <li><a href="job-opportunities.html"><p>Job opportunities</p></a></li>
-                        <li><a href="meet-the-team.html"><p>Yetsix team</p></a></li>
-                        <li><a href="become-an-investor.html"><p>Become an investor</p></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <ul class="list-unstyled">
-                        <li><h6>Support</h6></li>
-                        <li><a href="faq.html"><p>FAQ</p></a></li>
-                        <li><a href="support.html"><p>Contact Support</p></a></li>
-                    </ul>
+    <div class="lower-section">
+        <div class="two-page-layout">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 text-center">
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="layout-section left-section">
+                                    <img src="assets/imgs/screenshots/appointment-screenshot.png" class="img-fluid">
+                                </div>
+                            </li>
+                            <li>
+                                <p style="margin-top: 20px;" class="text-center">
+                                    Optimize resources in preparation for when patient miss appointments.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="layout-section left-section">
+                                    <img src="assets/imgs/screenshots/messaging-screenshot.png" class="img-fluid">
+                                </div>
+                            </li>
+                            <li>
+                                <p class="text-center">
+                                    Easily Collaborate with fellow Doctors, communicate and remind patients.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="d-sm-block d-md-none">
-        <div class="container">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">
-                        <img src="assets/imgs/yetsix-favicon.png" style="height: 20px;"/>
-                    </a></li>
-                    <li class="breadcrumb-item active" aria-current="page">
-                        <a>Home</a>
-                    </li>
-                </ol>
-            </nav>
-            <hr>
-            <div class="accordion" id="accordionExampleTwo">
-                <div class="card" style="padding: 1px 0;">
-                    <div class="card-header" id="headingTwo">
-                        <div class="row" data-toggle="collapse" data-target="#collapseTwo"
-                             aria-expanded="false" aria-controls="collapseTwo">
-                            <div class="col-9" style="padding-left: 0;">
-                                <div class="mb-0">
-                                    <p>
-                                        Products
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-3 text-right">
-                                <i class="fas fa-plus icon trns-all-1s"></i>
-                            </div>
-                        </div>
-
+    <footer>
+        <div class="d-none d-sm-none d-md-block">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">
+                                <img src="assets/imgs/yetsix-favicon.png" style="height: 20px;" />
+                            </a></li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            <a>Home</a>
+                        </li>
+                        <!--                    <li class="breadcrumb-item active" aria-current="page">Support</li>-->
+                    </ol>
+                </nav>
+                <br>
+                <div class="row justify-content-center">
+                    <div class="col-md-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <h6>Products</h6>
+                            </li>
+                            <li><a href="leila.html">
+                                    <p>Leila</p>
+                                </a></li>
+                        </ul>
                     </div>
-
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                         data-parent="#accordionExampleTwo">
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Leila</li>
-                            </ul>
-                        </div>
+                    <div class="col-md-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <h6>Account</h6>
+                            </li>
+                            <li><a href="manage-your-account.html">
+                                    <p>Manage your account</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <h6>About Yetsix</h6>
+                            </li>
+                            <li><a href="news.html">
+                                    <p>News</p>
+                                </a></li>
+                            <li><a href="job-opportunities.html">
+                                    <p>Job opportunities</p>
+                                </a></li>
+                            <li><a href="meet-the-team.html">
+                                    <p>Yetsix team</p>
+                                </a></li>
+                            <li><a href="become-an-investor.html">
+                                    <p>Become an investor</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <h6>Support</h6>
+                            </li>
+                            <li><a href="faq.html">
+                                    <p>FAQ</p>
+                                </a></li>
+                            <li><a href="support.html">
+                                    <p>Contact Support</p>
+                                </a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="accordion" id="accordionExample">
-                <div class="card" style="padding: 1px 0;">
-                    <div class="card-header" id="headingOne">
-                        <div class="row" data-toggle="collapse" data-target="#collapseOne"
-                             aria-expanded="false" aria-controls="collapseOne">
-                            <div class="col-9" style="padding-left: 0;">
-                                <div class="mb-0">
-                                    <p>
-                                        About Yetsix
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-3 text-right">
-                                <i class="fas fa-plus icon trns-all-1s"></i>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                         data-parent="#accordionExample">
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><a href="news.html"><p>News</p></a></li>
-                                <li class="list-group-item"><a href="job-opportunities.html"><p>Job Opportunities</p>
-                                </a></li>
-                                <li class="list-group-item"><a href="meet-the-team.html"><p>Yetsix Team</p></a></li>
-                                <li class="list-group-item"><a href="become-an-investor.html"><p>Become an investor</p>
-                                </a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion" id="accordionExampleFour">
-                <div class="card" style="padding: 1px 0;">
-                    <div class="card-header" id="headingFour">
-                        <div class="row" data-toggle="collapse" data-target="#collapseFour"
-                             aria-expanded="false" aria-controls="collapseFour">
-                            <div class="col-9" style="padding-left: 0;">
-                                <div class="mb-0">
-                                    <p>
-                                        Account
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-3 text-right">
-                                <i class="fas fa-plus icon trns-all-1s"></i>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                         data-parent="#accordionExampleFour">
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><a>
-                                    <a href="manage-your-account.html">
+        </div>
+        <div class="d-sm-block d-md-none">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">
+                                <img src="assets/imgs/yetsix-favicon.png" style="height: 20px;" />
+                            </a></li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            <a>Home</a>
+                        </li>
+                    </ol>
+                </nav>
+                <hr>
+                <div class="accordion" id="accordionExampleTwo">
+                    <div class="card" style="padding: 1px 0;">
+                        <div class="card-header" id="headingTwo">
+                            <div class="row" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                <div class="col-9" style="padding-left: 0;">
+                                    <div class="mb-0">
                                         <p>
-                                            Manage your account
+                                            Products
                                         </p>
-                                    </a>
-                                </a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion" id="accordionExampleThree">
-                <div class="card" style="padding: 1px 0;">
-                    <div class="card-header" id="headingThree">
-                        <div class="row" data-toggle="collapse" data-target="#collapseThree"
-                             aria-expanded="false" aria-controls="collapseThree">
-                            <div class="col-9" style="padding-left: 0;">
-                                <div class="mb-0">
-                                    <p>
-                                        Support
-                                    </p>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-right">
+                                    <i class="fas fa-plus icon trns-all-1s"></i>
                                 </div>
                             </div>
-                            <div class="col-3 text-right">
-                                <i class="fas fa-plus icon trns-all-1s"></i>
-                            </div>
+
                         </div>
 
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExampleTwo">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Leila</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="card" style="padding: 1px 0;">
+                        <div class="card-header" id="headingOne">
+                            <div class="row" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                                aria-controls="collapseOne">
+                                <div class="col-9" style="padding-left: 0;">
+                                    <div class="mb-0">
+                                        <p>
+                                            About Yetsix
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-right">
+                                    <i class="fas fa-plus icon trns-all-1s"></i>
+                                </div>
+                            </div>
 
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                         data-parent="#accordionExampleThree">
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><a href="faq.html"><p>
-                                    FAQ
-                                </p></a></li>
-                                <li class="list-group-item"><a href="support.html"><p>
-                                    Contact Support
-                                </p></a></li>
-                            </ul>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><a href="news.html">
+                                            <p>News</p>
+                                        </a></li>
+                                    <li class="list-group-item"><a href="job-opportunities.html">
+                                            <p>Job Opportunities</p>
+                                        </a></li>
+                                    <li class="list-group-item"><a href="meet-the-team.html">
+                                            <p>Yetsix Team</p>
+                                        </a></li>
+                                    <li class="list-group-item"><a href="become-an-investor.html">
+                                            <p>Become an investor</p>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionExampleFour">
+                    <div class="card" style="padding: 1px 0;">
+                        <div class="card-header" id="headingFour">
+                            <div class="row" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                aria-controls="collapseFour">
+                                <div class="col-9" style="padding-left: 0;">
+                                    <div class="mb-0">
+                                        <p>
+                                            Account
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-right">
+                                    <i class="fas fa-plus icon trns-all-1s"></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                            data-parent="#accordionExampleFour">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><a>
+                                            <a href="manage-your-account.html">
+                                                <p>
+                                                    Manage your account
+                                                </p>
+                                            </a>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionExampleThree">
+                    <div class="card" style="padding: 1px 0;">
+                        <div class="card-header" id="headingThree">
+                            <div class="row" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                <div class="col-9" style="padding-left: 0;">
+                                    <div class="mb-0">
+                                        <p>
+                                            Support
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-right">
+                                    <i class="fas fa-plus icon trns-all-1s"></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordionExampleThree">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><a href="faq.html">
+                                            <p>
+                                                FAQ
+                                            </p>
+                                        </a></li>
+                                    <li class="list-group-item"><a href="support.html">
+                                            <p>
+                                                Contact Support
+                                            </p>
+                                        </a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row" style="margin-top: 20px;">
-            <div class="col-md-12 footer-text">
-                <ul class="list-unstyled">
-                    <li>
-                        <p>Request a license online or on phone: 1-980-833-5881</p>
-                    </li>
-                    <li>
-                        <hr>
-                    </li>
-                    <li>
-                        <div class="row">
-                            <div class="col-md-8">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><img src="assets/imgs/usa.png" style="height: 20px;"
-                                                                      class="img-fluid"></li>
-                                    <li class="list-inline-item"><p>United States </p></li>
-                                    <li class="list-inline-item">
-                                        <p style=" display: flex; margin-top: 5px;">
-                                            Copyright &copy; 2020 Yetsix LLC - All Rights Reserved.
-                                        </p>
-                                    </li>
-                                </ul>
+        <div class="container">
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-md-12 footer-text">
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>Request a license online or on phone: 1-980-833-5881</p>
+                        </li>
+                        <li>
+                            <hr>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><img src="assets/imgs/usa.png"
+                                                style="height: 20px;" class="img-fluid"></li>
+                                        <li class="list-inline-item">
+                                            <p>United States </p>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <p style=" display: flex; margin-top: 5px;">
+                                                Copyright &copy; 2020 Yetsix LLC - All Rights Reserved.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#">Legal</a></li>
+                                        <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>
+                                        <li class="list-inline-item"><a href="#">License</a></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="col-md-4">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><a href="#">Legal</a></li>
-                                    <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>
-                                    <li class="list-inline-item"><a href="#">License</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/vivid-icons@1.0.9" type="text/javascript"></script>
-<script src="https://cdn.jsdelivr.net/npm/vivid-icons@1.0.9" type="text/javascript"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/vivid-icons@1.0.9" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vivid-icons@1.0.9" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="assets/js/app.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/app.js" type="text/javascript"></script>
 </body>
+
 </html>
